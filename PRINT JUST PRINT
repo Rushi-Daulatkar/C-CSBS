@@ -1,0 +1,19 @@
+//This File Contains Only Printf Statements 
+
+//The Code Is As Follows 
+
+#include<stdio.h>
+main()
+{
+printf("Boys are Good \n");
+printf("Girls are Good \n");
+}
+
+
+
+//Output Of The program will be
+Boys are Good
+Girls are Good
+
+
+
