@@ -1,0 +1,14 @@
+//This Program take input from the user and simply Prints that in the output screen
+//The program is as follows:-
+
+#include <stdio.h>
+
+int main()
+{
+
+int A;
+printf("Enter Any Value :"); 
+scanf("%d",&A);
+printf("\n The Value of A is : %d",A);
+
+}
