@@ -1,0 +1,19 @@
+//This Program Contains What is the Use Of TAB (\t) i.e ESCAPE SEQUENCE and Use of NEW LINE (\n) i.e NEW LINE COMMAND
+
+//The Code is As Follows 
+
+
+#include<stdio.h>
+main()
+{
+
+printf("Amar\n\tAkbar\n\t\tAnthony");
+
+}
+
+
+//The Output Of The Program Will be 
+
+Amar
+    Akbar 
+         Anthony
