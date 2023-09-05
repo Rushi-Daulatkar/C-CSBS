@@ -1,0 +1,25 @@
+// This program tell weather a program is positive ,negative OR ZERO
+
+#include <stdio.h>
+
+int main() 
+{
+    int num;
+    printf("Enter any Number:");
+    scanf("%d",&num);
+    
+    if(num > 0)
+    {
+        printf("\n %d Number is positive",num);
+    }else
+    {
+     if(num < 0)
+     {
+       printf("\n %d Number is negative",num); 
+     }   
+    else
+    {
+        printf("\n %d Number is zero",num);
+        }
+    }
+}
