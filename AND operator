@@ -1,0 +1,18 @@
+// This code shows working of AND operator
+
+//if any one conduction is false then  conduction will not execute
+//ALL MUST BE TRUE
+
+#include <stdio.h>
+
+int main() 
+{
+    if(5<3 && 10>14 && 10==10)
+    {
+        printf("\n hello world");
+    }else
+    {
+    printf("\n Bye");
+    }
+    
+}
