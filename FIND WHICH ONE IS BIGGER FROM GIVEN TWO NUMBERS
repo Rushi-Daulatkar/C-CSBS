@@ -1,0 +1,26 @@
+//This program tells which of the following two given numbers is bigger  
+//The program is as follows:-
+
+#include <stdio.h>
+
+int main() 
+{
+    int a,b;
+    printf("Enter any Two Numbers:");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    
+    if(a>b)
+    {
+        printf("\n %d is greater",a);
+    }
+    else
+    {
+      if(a<b) 
+      {
+         printf("\n  %d is greater",b); 
+      } else{
+          printf("\n %d and %d are equal",a,b);
+      }
+   }
+}
