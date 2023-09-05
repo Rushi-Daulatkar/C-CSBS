@@ -1,0 +1,17 @@
+//This converter will convert BYTE into MB,KM,BITS 
+//The propgram is as follows:-
+
+#include <stdio.h>
+
+int main() 
+{
+    float bits,bytes,kb,mb;
+    printf("\n Enter byte:");
+    scanf("%f",& bytes);
+    bits=bytes*8;
+    kb=bytes/1024;
+    mb=kb/1024;
+    printf("\n equivalent bits=%.0f",bits);
+    printf("\n equivalent kb =%.0f",kb);
+    printf("\n equivalent mb =%.0f",mb);
+}
