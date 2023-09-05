@@ -1,0 +1,19 @@
+//This code shows all the mathematical operaor in CX programking language 
+//The code is as follows:-
+
+#include <stdio.h>
+
+int main() 
+{
+
+    int a,b;
+    printf("Enter ant two values:");
+    scanf("%d",&a);
+    scanf("%d",&b);
+    printf("\n %d + %d = %d",a,b,a+b);
+    printf("\n %d - %d = %d",a,b,a-b);
+    printf("\n %d * %d = %d",a,b,a*b);
+    printf("\n %d / %d = %d",a,b,a/b);
+
+    return 0;
+}
