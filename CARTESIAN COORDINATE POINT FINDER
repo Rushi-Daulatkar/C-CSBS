@@ -1,0 +1,45 @@
+// This program tells where the points lie in the cartesian coordinate plane  
+#include <stdio.h>
+
+int main() 
+{
+    int x,y;
+    printf("\n Enter the value of X and Y :");
+    scanf("\n %d %d",&x,&y);
+    printf("\n point X=%d Y=%d lies on ",x,y);
+    
+    if(x>0 && y>0)
+    {
+        printf("First Quadrant");
+    }
+    
+    if(x<0 && y>0)
+    {
+        printf("Second Quadrant");
+    }
+    
+    if(x<0 && y<0)
+    {
+        printf("Third Quadrant");
+    }
+    
+    if(x>0 && y<0)
+    {
+        printf("Fourth Quadrant");
+    }
+    if(x==0 && y==0)
+    {
+        printf("Origin");
+    }
+    if(x!=0 && y==0)
+    {
+        printf("Y-Axis");
+    }
+    if(x==0 && y!=0)
+    {
+        printf("Y-Axis");
+    }
+    
+
+    return 0;
+}
