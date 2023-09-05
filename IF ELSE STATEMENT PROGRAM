@@ -1,0 +1,16 @@
+//This program shows the working of if else statements 
+//there are two conductio0ns either of which onje is true and other is false
+//in this program the first coinduction is true so thus this program will print HELLO WORLD
+
+
+#include <stdio.h>
+
+int main() {
+    if(51>13)
+    {
+    printf("Hello world");
+    }else{
+    printf("\n Bye");
+    }
+    return 0;
+}
