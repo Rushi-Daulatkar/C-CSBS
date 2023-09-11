@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+void main() 
+{
+    char ch=ch;
+    
+    printf("\n Enter lowercase value:");
+    scanf("%c",&ch);
+    
+    if(ch>=97 && ch<=122)
+    {
+        ch=ch-32;
+    }
+    
+    printf("\n UPPERCASE=%c",ch);
+
+}
