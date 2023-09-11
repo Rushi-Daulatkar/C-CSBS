@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+    int num,i;
+    
+    printf("Enter any Number :");
+    scanf("\n %d",&num);
+    
+    for(i=1;i<=10;i++)
+    {
+        printf("\nTable of %d is %d",num,num*i);
+    }
+    
+}
