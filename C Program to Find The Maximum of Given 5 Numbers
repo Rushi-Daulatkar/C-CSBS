@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int main() 
+{
+    int a,b,c,d,e,max;
+    printf("Enter any five numbers:");
+    scanf("%d %d %d %d %d",&a,&b,&c,&d,&e);
+    
+    a=max;
+    
+    if(b>max)
+    {max=b;}
+    
+    if(c>max)
+    {max=c;}
+    
+    if(d>max)
+    {max=d;}
+    
+    if(e>max)
+    {max=e;}
+     printf("Maximum Value is %d",max);
+    return 0;
+}
