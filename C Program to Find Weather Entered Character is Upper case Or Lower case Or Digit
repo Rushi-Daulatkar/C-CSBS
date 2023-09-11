@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+    void main() 
+    {
+    char ch;
+    
+    printf("\n Enter value of char:");
+    scanf("%c",&ch);
+    
+    if(ch>=65 && ch<=90)
+    {
+        ch = ch + 32;
+        printf("Lower case %c",ch);
+    }
+    else
+    {
+        if(ch>=97 && ch<=122)
+        {
+        ch = ch - 32;
+        printf("Upper case %c",ch);
+        }
+        
+    else
+        {
+        printf("\n DIGIT",ch);
+        }
+    }
+}
