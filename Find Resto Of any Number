@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main()
+{
+    int x,y,i,sum;
+    
+    printf("\nEnter Value of X");
+    scanf("\n %d",&x);
+    
+    printf("\nEnter Value of Y");
+    scanf("\n %d",&y);
+   
+    sum=1;
+      
+    for(i=1;i<=y;i++)
+    {
+       sum=sum*x;
+    }
+    printf("The resto is  %d",sum);
+     
+}
