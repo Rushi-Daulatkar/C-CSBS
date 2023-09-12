@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() 
+{
+    int i,j;
+    
+    printf("Enter value for i: ");
+    scanf("\n%d",&i);
+    
+    printf("Enter value for j: ");
+    scanf("\n%d",&j);
+    
+    for(j=1;j<=3;j++)
+    {
+        printf("\nI=%d and J=%d",i,j);
+    }
+}
