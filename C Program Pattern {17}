@@ -1,0 +1,23 @@
+/*prints pattern as
+e	e	e	e	e
+d	d	d	d
+c	c	c
+b	b
+a
+*/
+
+#include <stdio.h>
+
+int main() 
+{
+    int i,j;
+
+    for(i=101;i>=97;i--)
+    {
+        for(j=97;j<=i;j++)
+        {
+            printf("\t%c",i);
+        }
+        printf("\n");
+    }
+}
