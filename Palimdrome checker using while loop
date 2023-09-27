@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int d,num,rev,ori;
+    
+    printf("\n Enter Any Number :");
+    scanf("%d",&num);
+    
+    ori=num;
+    rev=0;
+    
+    while(num>0)
+    {
+       d=num%10;
+       rev=rev*10+d;
+       num=num/10;
+    }
+    if(ori==rev)
+    {
+        printf("\n The Number %d is Palimdrome",ori);
+    }else
+    {
+        printf("\n The Number %d is  NOT Palimdrome",ori);    
+    }
+}
