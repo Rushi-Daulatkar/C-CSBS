@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int d,num,sum,ori;
+    
+    printf("\n Enter Any Number :");
+    scanf("%d",&num);
+    
+    sum=0;
+    ori=num;
+
+    while(num>0)
+    {
+     d=num%10;
+     sum=sum+d;
+     num=num/10;
+    }
+    printf("The sum of number %d is %d ",ori,sum);
+}
