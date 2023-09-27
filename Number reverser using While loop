@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{
+    int d,num,rev,ori;
+    
+    printf("\n Enter Any Number :");
+    scanf("%d",&num);
+    
+    ori=num;
+    rev=0;
+    
+    while(num>0)
+    {
+       d=num%10;
+       rev=rev*10+d;
+       num=num/10;
+    }
+    printf("\n Reverse of the number %d is : %d",ori,rev);
+}
