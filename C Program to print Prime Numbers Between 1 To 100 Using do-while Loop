@@ -1,0 +1,31 @@
+#include <stdio.h>
+int main()
+{
+    int i,num,count;
+    
+    printf("Name:-Rushi Daulatkar\n");
+    printf("Roll No.:- 53\n");
+    
+    num=1;
+    do
+    {
+        count=0;
+        i=1;
+    do
+    {
+       if(num%i==0)  
+       {
+         count++;
+       }
+        i++;
+    }
+    while(i<=num);
+    
+    if(count==2)
+        {
+            printf("%d\t",num);
+        }
+     num++;
+   }
+   while(num<=100);
+}
