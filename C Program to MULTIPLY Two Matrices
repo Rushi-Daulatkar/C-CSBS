@@ -1,13 +1,12 @@
 #include <stdio.h>
-int main() 
+int main()
 {
-    int i,j,sum;
+    int i,j,k,sum;
     int a[3][3];
     int b[3][3];
     int c[3][3];
     
      printf("\nEnter any 3x3 Matrix");
-     
      for(i=0;i<3;i++)
      {
          for(j=0;j<3;j++)
@@ -15,8 +14,8 @@ int main()
              scanf("%d",&a[i][j]);
          }printf("\n");
      }
-     printf("\nEntered matrix is \n");
      
+     printf("\nEntered matrix is \n");
      for(i=0;i<3;i++)
      {
          for(j=0;j<3;j++)
@@ -26,7 +25,6 @@ int main()
      }printf("\n");
      
      printf("\nEnter any 3x3 Matrix");
-     
      for(i=0;i<3;i++)
      {
          for(j=0;j<3;j++)
@@ -34,21 +32,37 @@ int main()
              scanf("%d",&b[i][j]);
          }printf("\n");
      }
+   
      printf("\nEntered matrix is \n");
-     
      for(i=0;i<3;i++)
      {
          for(j=0;j<3;j++)
          {
-             printf("%d \t",a[i][j]);
+             printf("%d \t",b[i][j]);
          }printf("\n");
      }printf("\n");
      
-     for(i=0;i<3;i++)
-     {
-         for(j=0;j<3;j++)
-         {  c[i][j]=a[i][j]*b[i][j];
-             printf("%d  \t \t",c[i][j]);
-         }printf("\n");
-     }printf("\n");
+
+    for(i=0;i<3;i++) 
+    {
+        for(j=0;j<3;j++)
+        {    
+            c[i][j] = 0; 
+            for(k=0; k<3;k++) 
+            {
+                c[i][j] += a[i][k] * b[k][j];
+            }
+        }
+    }
+
+
+    printf("Resultant Matrix is :\n");
+    for (i=0;i<3;i++)
+    {
+        for (j=0;j<3;j++)
+        {
+            printf("%d\t",c[i][j]);
+        }
+        printf("\n");
+    }
 }
