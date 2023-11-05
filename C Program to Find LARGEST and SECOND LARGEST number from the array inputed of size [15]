@@ -1,0 +1,37 @@
+#include <stdio.h>
+int main() 
+{
+    int a[15];
+    int i, largest,secondLargest;
+
+    printf("Enter 15 numbers:\n");
+    for (i=0;i<15;i++)
+    {
+        scanf("%d", &a[i]);
+    }
+
+    largest = a[0];
+    secondLargest=a[1];
+
+    if (secondLargest>largest) 
+    {
+        int temp = largest;
+        largest = secondLargest;
+        secondLargest = temp;
+    }
+
+    for (i=2;i<15;i++)
+    {
+        if (a[i]>largest) 
+        {
+            secondLargest = largest;
+            largest = a[i];
+        } else if(a[i]>secondLargest&& a[i]!=largest)
+        {
+            secondLargest=a[i];
+        }
+    }
+    printf("The largest number in the array is: %d\n",largest);
+    printf("The second largest number in the array is: %d\n",secondLargest);
+
+}
