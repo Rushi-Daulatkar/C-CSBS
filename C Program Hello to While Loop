@@ -4,9 +4,10 @@ int main()
 {
    int a = 5;
    
-   while(a<6)
+   while(a<1)
    {
        printf("Hello to while loop\n");
        a++;
    }
 }
+\\try compare it with code named"Learn Do-While Loop for more understanding"
