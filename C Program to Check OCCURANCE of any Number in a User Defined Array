@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main() 
+{   
+    int i,count,num;
+    int a[15];
+    
+    count = 0;
+    
+    printf("Enter any 15 Numbers :\n");
+    for(i=0;i<15;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    
+    printf("Enter Number to be Checked :\n");
+    scanf("%d",&num);
+    
+    
+    for(i=0;i<15;i++)
+    {   
+        if(a[i] == num)
+        {
+            count++;
+        }
+    }   
+        printf("The Number %d was Repeated %d times \n",num,count);
+    
+}
