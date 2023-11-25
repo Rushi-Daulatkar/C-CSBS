@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() 
+{   
+    int i;
+    int a[5];
+    
+    printf("Enter any 5 Numbers");
+    
+    for(i=0;i<5;i++)
+    {
+    scanf("%d",&a[i]);
+    }
+    for(i=0;i<5;i++)
+    {
+         printf("a[%d] = %d\n",i,a[i]);
+    }
+}
