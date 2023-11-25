@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+   int  i = 1;
+
+   do
+   {
+       printf("%d=%c\t",i,i);
+       i++;
+       
+   }while(i<=128);
+}
