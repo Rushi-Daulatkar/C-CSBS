@@ -9,6 +9,8 @@ int main()
         case 1 :printf("\nI am in Case I");
         case 2 :printf("\nI am in Case II");
         case 3 :printf("\nI am in Case III");
+
+        default : printf("\n Invalid Choice");
     }
 }
 
