@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() 
+{   
+    int i,sum;
+    int a[5];
+    
+    printf("Enter any 5 Numbers to be Added :\n");
+    sum = 0;
+    for(i=0;i<5;i++)
+    {
+    scanf("%d",&a[i]);
+    }
+    for(i=0;i<5;i++)
+    {   
+         sum = sum + a[i];
+    }
+    printf("Sum of Elements of Array is : %d\n",sum);
+    
+    printf("Average of Elements of Array is : %f\n",sum/5.0);
+
+}
