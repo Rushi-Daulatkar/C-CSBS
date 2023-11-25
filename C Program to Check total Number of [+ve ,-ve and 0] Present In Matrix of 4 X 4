@@ -1,0 +1,55 @@
+#include <stdio.h>
+
+int main() 
+{   
+    int i,j,pcount,ncount,zcount;
+    int a[4][4];
+    
+    printf("Enter any 4 x 4 Matrix :\n");
+    for(i=0;i<4;i++)
+    {
+        for(j=0;j<4;j++)
+        {
+            scanf("%d",&a[i][j]);
+        }
+    }
+    
+    for(i=0;i<4;i++)
+    {
+        for(j=0;j<4;j++)
+        {
+            printf(" %d  ",a[i][j]);
+        }printf(" \n");
+    }printf(" \n");
+    
+    
+    pcount = ncount = zcount = 0;
+    
+    for(i=0;i<4;i++)
+    {
+        for(j=0;j<4;j++)
+        {
+           if(a[i][j]>0)
+           {
+               pcount++;
+           }
+           
+           if(a[i][j]<0)
+           {
+               ncount++;
+           }
+           
+           if(a[i][j]==0)
+           {
+               zcount++;
+           }
+           
+        }
+    }
+    
+    
+    printf("The Total Number of Positive Numbers are :%d\n",pcount);
+    printf("The Total Number of Negative Numbers are :%d\n",ncount);
+    printf("The Total Number of Zeroes are :%d\n",zcount);
+    
+}
