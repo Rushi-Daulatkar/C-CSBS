@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main()
+{
+   int a = 5;
+   
+   while(a<6)
+   {
+       printf("Hello to while loop\n");
+       a++;
+   }
+}
