@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+    int ch = 2;
+    
+    switch(ch)
+    {
+        case 1 :printf("\nI am in Case I");
+        break;
+        case 2 :printf("\nI am in Case II");
+        break;
+        case 3 :printf("\nI am in Case III");
+        break;
+        default :printf("\nInvalid Choice");
+    }
+}
