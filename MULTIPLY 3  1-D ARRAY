@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+int main()
+{
+  
+    int a[10];
+    int b[10];
+    int c[10];
+    int d[10];
+    int i,size;
+    
+     printf("Enter the size of array");
+     scanf("%d",&size);
+    
+    
+    printf("Enter elements for array a");
+    for(i=0;i<size;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    
+     printf("Enter elements for array b");
+    for(i=0;i<size;i++)
+    {
+        scanf("%d",&b[i]);
+    }
+    
+     printf("Enter elements for array c");
+    for(i=0;i<size;i++)
+    {
+        scanf("%d",&c[i]);
+    }
+    printf("The Multiplication is :\n");
+    for(i=0;i<size;i++)
+    {
+        d[i]=a[i]*b[i]*c[i];
+    }
+    
+    for(i=0;i<size;i++)
+    {
+        printf("\t%d",d[i]);
+    }
+    return 0;
+}
