@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main()
+{
+  
+    int a[10];
+    int b[10];
+    int c[10];
+    int i,size;
+    
+     printf("Enter the size of array");
+     scanf("%d",&size);
+    
+    
+    printf("Enter elements for array a");
+    for(i=0;i<size;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+    
+     printf("Enter elements for array b");
+    for(i=0;i<size;i++)
+    {
+        scanf("%d",&b[i]);
+    }
+    
+    printf("The Addition is :\n");
+    for(i=0;i<size;i++)
+    {
+        c[i]=a[i]+b[i];
+    }
+    
+    for(i=0;i<size;i++)
+    {
+        printf("\t%d",c[i]);
+    }
+    return 0;
+}
